@@ -1,0 +1,16 @@
+program Bares_Restaurantes;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  Login in 'Login.pas' {Form1},
+  pasModulo in 'pasModulo.pas' {Modulo: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TModulo, Modulo);
+  Application.Run;
+end.

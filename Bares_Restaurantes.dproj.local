@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/04/19 11:20:11.000.634,=C:\Users\falve\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/02 15:35:46.000.514,=C:\Users\falve\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/02 15:36:38.000.995,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Login.pas=C:\Users\falve\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/02 15:36:38.000.995,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Login.fmx=C:\Users\falve\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/05/02 15:37:24.000.355,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Bares_Restaurantes.dproj=C:\Users\falve\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/05/02 19:25:23.000.125,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/05/02 19:26:00.000.867,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/05/02 19:30:19.000.426,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.dfm=C:\Delphi\Limner Bares e  Restaurantes\Projeto\pasModulo.dfm</Transaction>
+    <Transaction>2020/05/02 19:30:19.000.426,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\pasModulo.pas</Transaction>
+    <Transaction>2020/05/03 13:13:22.000.169,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/05/03 13:22:27.000.064,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\cConect.pas</Transaction>
+    <Transaction>2020/05/03 13:28:39.000.520,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/05/03 13:29:45.000.649,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Principal.pas</Transaction>
+    <Transaction>2020/05/03 13:29:45.000.649,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.fmx=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Principal.fmx</Transaction>
+    <Transaction>2020/05/03 13:44:37.000.389,C:\Delphi\Limner Bares e  Restaurantes\Projeto\cConect.pas=</Transaction>
+    <Transaction>2020/05/03 20:34:23.000.682,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/05/03 20:34:32.000.858,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Usuarios.pas</Transaction>
+    <Transaction>2020/05/03 20:34:32.000.858,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.fmx=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Usuarios.fmx</Transaction>
+    <Transaction>2020/05/11 18:45:00.000.213,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/05/11 18:45:21.000.978,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/05/14 10:06:32.000.905,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/05/14 10:06:50.000.822,C:\Delphi\Limner Bares e  Restaurantes\Projeto\CUsuarios.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/05/14 10:06:50.000.822,C:\Delphi\Limner Bares e  Restaurantes\Projeto\CUsuarios.fmx=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.fmx</Transaction>
+    <Transaction>2020/05/14 17:38:03.000.932,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/05/14 17:40:02.000.169,C:\Delphi\Limner Bares e  Restaurantes\Projeto\cDialogo.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/05/14 17:47:09.000.965,C:\Delphi\Limner Bares e  Restaurantes\Projeto\cDialogo.pas=</Transaction>
+    <Transaction>2020/05/16 13:03:59.000.819,=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/05/16 13:05:15.000.638,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.pas=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Mesas.pas</Transaction>
+    <Transaction>2020/05/16 13:05:15.000.638,C:\Delphi\Limner Bares e  Restaurantes\Projeto\Unit2.fmx=C:\Delphi\Limner Bares e  Restaurantes\Projeto\Mesas.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

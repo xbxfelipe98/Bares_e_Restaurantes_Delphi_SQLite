@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 376
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object pnlPrincipal: TPanel
+    Align = Client
+    Size.Width = 376.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object pnlTopo: TPanel
+      Align = Top
+      Size.Width = 376.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object pnlBotoes: TPanel
+      Align = Client
+      Size.Width = 376.000000000000000000
+      Size.Height = 183.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object pnlCampos: TPanel
+      Align = Top
+      Position.Y = 161.000000000000000000
+      Size.Width = 376.000000000000000000
+      Size.Height = 136.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object lblSenha: TLabel
+        StyledSettings = [Family, Size, Style]
+        Position.X = 56.000000000000000000
+        Position.Y = 48.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Senha:'
+        TabOrder = 18
+      end
+      object lblUsuario: TLabel
+        StyledSettings = [Family, Size, Style]
+        Position.X = 48.000000000000000000
+        Size.Width = 193.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Us'#250'ario:'
+        TabOrder = 20
+      end
+      object edtSenha: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Password = True
+        Position.X = 120.000000000000000000
+        Position.Y = 48.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Size, Style]
+      end
+      object edtUsuario: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Position.X = 120.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Size, Style]
+      end
+      object btnLogin: TButton
+        StyledSettings = [Family, Size, Style]
+        Position.X = 80.000000000000000000
+        Position.Y = 104.000000000000000000
+        TabOrder = 3
+        Text = 'Login'
+        OnClick = btnLoginClick
+      end
+      object btnSair: TButton
+        StyledSettings = [Family, Size, Style]
+        Position.X = 208.000000000000000000
+        Position.Y = 104.000000000000000000
+        TabOrder = 4
+        Text = 'Sair'
+        OnClick = btnSairClick
+      end
+    end
+  end
+end

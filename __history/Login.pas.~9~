@@ -1,0 +1,74 @@
+unit Login;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Edit, FMX.Objects;
+
+type
+  TForm1 = class(TForm)
+    pnlPrincipal: TPanel;
+    pnlTopo: TPanel;
+    pnlBotoes: TPanel;
+    pnlCampos: TPanel;
+    lblUsuario: TLabel;
+    lblSenha: TLabel;
+    edtUsuario: TEdit;
+    edtSenha: TEdit;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    btnLogin: TButton;
+    btnSair: TButton;
+
+    procedure btnSairClick(Sender: TObject);
+    procedure btnLoginClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+uses pasModulo, cConect, Principal;
+
+procedure TForm1.btnLoginClick(Sender: TObject);
+begin
+  if (edtUsuario.Text = '') and (edtSenha.Text = '') then
+  begin
+
+      ShowMessage('Campos usúario e senha obrigatorios!');
+
+  end
+  else
+  begin
+    try
+      dm.con.Connected := true;
+      dm.QueryLogin.Close;
+      dm.QueryLogin.ParamByName('usuario').AsString := edtUsuario.Text;
+      dm.QueryLogin.ParamByName('senha').AsString := edtSenha.Text;
+      dm.QueryLogin.Open;
+      frmPrincipal :=  TfrmPrincipal.Create(Self);
+      frmPrincipal.show;
+    except
+      on E:Exception do
+      ShowMessage(E.Message);
+    end;
+
+  end;
+end;
+
+procedure TForm1.btnSairClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

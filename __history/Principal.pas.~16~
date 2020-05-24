@@ -1,0 +1,95 @@
+unit Principal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, FMX.StdCtrls, FMX.Controls.Presentation, FMX.Ani;
+
+type
+  TfrmPrincipal = class(TForm)
+    lMenu: TLayout;
+    btnTelaPrincipal: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    btnUsuarios: TButton;
+    Button7: TButton;
+    layPrincipal: TLayout;
+    laytPrincipal: TLayout;
+    layTopo: TLayout;
+    Rectangle2: TRectangle;
+    btnLista: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Rectangle1Click(Sender: TObject);
+    procedure btnUsuariosClick(Sender: TObject);
+    procedure btnListaClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.fmx}
+
+uses Usuarios;
+
+procedure TfrmPrincipal.btnListaClick(Sender: TObject);
+begin
+  if (lMenu.Visible = false) then
+  begin
+    lMenu.Visible := true;
+
+
+  end
+  else
+  begin
+    lmenu.Visible := false;
+
+  end;
+end;
+
+procedure TfrmPrincipal.btnUsuariosClick(Sender: TObject);
+begin
+  frmUsuarios := TfrmUsuarios.Create(Self);
+  frmUsuarios.Show;
+  Close;
+
+end;
+
+procedure TfrmPrincipal.Button1Click(Sender: TObject);
+begin
+  if (lMenu.Visible = false) then
+  begin
+    lMenu.Visible := true;
+    {FloatAnimation1.Inverse := False;
+    FloatAnimation1.StartValue := - 200;
+    FloatAnimation1.StopValue := 0 ;
+    FloatAnimation1.Start; }
+
+  end
+  else
+  begin
+    lmenu.Visible := false;
+
+  end;
+end;
+
+
+
+procedure TfrmPrincipal.Rectangle1Click(Sender: TObject);
+begin
+  if (lMenu.Visible = true) then
+  begin
+    lmenu.Visible := false;
+  end;
+
+end;
+end.

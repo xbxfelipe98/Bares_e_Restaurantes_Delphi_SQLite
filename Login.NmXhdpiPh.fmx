@@ -1,0 +1,42 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited pnlPrincipal: TPanel
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    inherited pnlTopo: TPanel
+      Size.Width = 400.000000000000000000
+      inherited Image1: TImage
+        MultiResBitmap.Height = 261
+        MultiResBitmap.Width = 398
+        Size.Width = 400.000000000000000000
+      end
+    end
+    inherited pnlBotoes: TPanel
+      Size.Width = 400.000000000000000000
+      inherited Image3: TImage
+        MultiResBitmap.Height = 261
+        MultiResBitmap.Width = 398
+        Size.Width = 400.000000000000000000
+      end
+    end
+    inherited pnlCampos: TPanel
+      Size.Width = 400.000000000000000000
+      inherited Image2: TImage
+        MultiResBitmap.Height = 261
+        MultiResBitmap.Width = 398
+        Size.Width = 400.000000000000000000
+      end
+      inherited edtSenha: TEdit
+        Size.Height = 32.000000000000000000
+      end
+      inherited edtUsuario: TEdit
+        Size.Height = 32.000000000000000000
+      end
+      inherited btnSair: TButton
+        OnClick = btnSairClick
+      end
+    end
+  end
+end

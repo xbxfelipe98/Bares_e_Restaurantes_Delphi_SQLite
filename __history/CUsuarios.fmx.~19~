@@ -1,0 +1,297 @@
+object CaUsuarios: TCaUsuarios
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 358
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 358.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 358.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle2: TRectangle
+        Align = Client
+        Size.Width = 358.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        object btnLista: TButton
+          Align = Left
+          Size.Width = 80.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'detailstoolbutton'
+          TabOrder = 0
+          Text = 'btnLista'
+          OnClick = btnListaClick
+        end
+      end
+    end
+    object Layout3: TLayout
+      Align = Bottom
+      Position.Y = 423.000000000000000000
+      Size.Width = 358.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Rectangle3: TRectangle
+        Align = Client
+        Size.Width = 358.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        object btnSalvar: TButton
+          Align = Left
+          Size.Width = 80.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'addtoolbutton'
+          TabOrder = 0
+          Text = 'btnSalvar'
+          OnClick = btnSalvarClick
+        end
+      end
+    end
+    object Layout4: TLayout
+      Align = Client
+      Size.Width = 358.000000000000000000
+      Size.Height = 366.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object Rectangle1: TRectangle
+        Align = Client
+        Size.Width = 358.000000000000000000
+        Size.Height = 366.000000000000000000
+        Size.PlatformDefault = False
+        object Layout5: TLayout
+          Align = Left
+          Size.Width = 145.000000000000000000
+          Size.Height = 366.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Layout7: TLayout
+            Align = Top
+            Size.Width = 145.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+          end
+          object Layout8: TLayout
+            Align = Top
+            Position.Y = 100.000000000000000000
+            Size.Width = 145.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            object Label2: TLabel
+              Align = Center
+              Text = 'Nome:'
+              TabOrder = 0
+            end
+          end
+          object Layout9: TLayout
+            Align = Top
+            Position.Y = 150.000000000000000000
+            Size.Width = 145.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object Label3: TLabel
+              Align = Center
+              Text = 'Usu'#225'rio:'
+              TabOrder = 0
+            end
+          end
+          object Layout10: TLayout
+            Align = Top
+            Position.Y = 200.000000000000000000
+            Size.Width = 145.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object Label4: TLabel
+              Align = Center
+              Text = 'Senha:'
+              TabOrder = 0
+            end
+          end
+          object Layout11: TLayout
+            Align = Top
+            Position.Y = 50.000000000000000000
+            Size.Width = 145.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object Label1: TLabel
+              Align = Center
+              Text = 'ID:'
+              TabOrder = 0
+            end
+          end
+        end
+        object Layout6: TLayout
+          Align = Client
+          Size.Width = 213.000000000000000000
+          Size.Height = 366.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Layout12: TLayout
+            Align = Top
+            Size.Width = 213.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+          end
+          object Layout13: TLayout
+            Align = Top
+            Position.Y = 200.000000000000000000
+            Size.Width = 213.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            object edtSenha: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = FitLeft
+              TabOrder = 0
+              Position.Y = 9.168930053710938000
+              Size.Width = 213.000000000000000000
+              Size.Height = 31.662139892578130000
+              Size.PlatformDefault = False
+            end
+          end
+          object Layout14: TLayout
+            Align = Top
+            Position.Y = 150.000000000000000000
+            Size.Width = 213.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object edtUsuario: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = FitLeft
+              TabOrder = 0
+              Position.Y = 9.000000000000000000
+              Size.Width = 213.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object Layout15: TLayout
+            Align = Top
+            Position.Y = 100.000000000000000000
+            Size.Width = 213.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object edtNome: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = FitLeft
+              TabOrder = 0
+              Position.Y = 9.000000000000000000
+              Size.Width = 213.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object Layout16: TLayout
+            Align = Top
+            Position.Y = 50.000000000000000000
+            Size.Width = 213.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object edtID: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = FitLeft
+              TabOrder = 0
+              Position.Y = 9.000000000000000000
+              Enabled = False
+              Size.Width = 213.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+    end
+    object lMenu: TLayout
+      Align = Left
+      Position.Y = 57.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 366.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 2
+      object Rectangle4: TRectangle
+        Align = Client
+        Size.Width = 201.000000000000000000
+        Size.Height = 366.000000000000000000
+        Size.PlatformDefault = False
+        object btnTelaPricipal: TButton
+          Align = Top
+          Size.Width = 201.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Tela Principal'
+          OnClick = btnTelaPricipalClick
+        end
+        object btnUsuarios: TButton
+          Align = Top
+          Position.Y = 164.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Us'#250'arios'
+          OnClick = btnUsuariosClick
+        end
+        object bttnProdutos: TButton
+          Align = Top
+          Position.Y = 123.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Produtos'
+        end
+        object btnMesas: TButton
+          Align = Top
+          Position.Y = 82.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Mesas'
+        end
+        object btnClientes: TButton
+          Align = Top
+          Position.Y = 41.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = ' Clientes'
+        end
+        object btnRelatorios: TButton
+          Align = Top
+          Position.Y = 205.000000000000000000
+          Size.Width = 201.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Relat'#243'rios'
+        end
+      end
+    end
+  end
+end

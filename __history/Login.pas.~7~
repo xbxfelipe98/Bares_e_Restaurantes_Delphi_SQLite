@@ -1,0 +1,63 @@
+unit Login;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Edit, FMX.Objects;
+
+type
+  TForm1 = class(TForm)
+    pnlPrincipal: TPanel;
+    pnlTopo: TPanel;
+    pnlBotoes: TPanel;
+    pnlCampos: TPanel;
+    lblUsuario: TLabel;
+    lblSenha: TLabel;
+    edtUsuario: TEdit;
+    edtSenha: TEdit;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    btnLogin: TButton;
+    btnSair: TButton;
+    procedure pnlPrincipalClick(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure lblSenhaClick(Sender: TObject);
+    procedure ImageControl1Change(Sender: TObject);
+    procedure Image3Click(Sender: TObject);
+    procedure btnSairClick(Sender: TObject);
+    procedure btnLoginClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+uses pasModulo;
+
+procedure TForm1.btnLoginClick(Sender: TObject);
+begin
+  if (edtUsuario.Text = '') and (edtSenha.Text = '') then
+  begin
+
+
+
+  end;
+end;
+
+procedure TForm1.btnSairClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.
