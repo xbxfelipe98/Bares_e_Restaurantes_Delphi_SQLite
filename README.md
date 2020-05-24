@@ -1,7 +1,8 @@
 ### Projeto em Delphi com SQLite
 
 Software para controle de mesas de bares e restaurantes Mobile.
-Em desenvolvimento inicial.
+
+Em desenvolvimento inicial!
 
 ## Tecnologias utilizadas
 
